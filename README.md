@@ -5,7 +5,13 @@ An API built in Node.js to manage scheduling for Barber Shop 💈
 ### Running
 
 ```
+#install dependencies
 yarn
+
+#config commit lint
+yarn commitizen init cz-conventional-changelog --yarn --dev --exact
+
+#start application at http://localhost:3333
 yarn dev
 ```
 
